@@ -1,7 +1,7 @@
 {
   "name": "ws-no-bs",
   "description": "simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "options": ">=0.0.5",
     "ultron": "1.0.x",
     "randombytes": "2.0.3",
-    "create-hash": "1.1.2"
+    "create-hash": "1.1.2",
+    "stream": "0.0.2"
   },
   "devDependencies": {
     "ansi": "0.3.x",
