@@ -1,3 +1,5 @@
+**WARNING: This is a forked version of [ws](https://github.com/websockets/ws) that was downgraded to v1.1.4 in order to remove ES6 code and the `try {} catch {}`es removed from attempting to require modules that were not included in `package.json`. The reason for this fork is to provide extended compatibility with non-ES6 environments and compatibility with `Browserify`. Please use the original repo, not this fork, if you need the latest `ws` module.**
+
 # ws: a node.js websocket library
 
 [![Build Status](https://travis-ci.org/websockets/ws.svg?branch=master)](https://travis-ci.org/websockets/ws)
